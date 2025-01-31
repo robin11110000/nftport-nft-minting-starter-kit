@@ -8,8 +8,8 @@ const UploadForm = ({ address }) => {
     const fileRef = useRef(null);
     const SUPPORTED_FORMATS = ['image/jpg', 'image/jpeg', 'image/png', 'image/webp'];
 
-    const apiKey = process.env.NEXT_PUBLIC_NFTPORT_API_KEY;
-    const mintingChain = process.env.NEXT_PUBLIC_NFTPORT_MINTING_CHAIN;
+    const apiKey = process.env.NEXT_PUBLIC_UNLEASH_API_KEY;
+    const mintingChain = process.env.NEXT_PUBLIC_UNLEASH_MINTING_CHAIN;
 
     const [nftPort, setNftPort] = useState();
     const [minting, isMinting] = useState(false)
